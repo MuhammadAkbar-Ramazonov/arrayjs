@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <h1 class="text-dark text-center">Array</h1>
+            <select class="form-select js-select mb-4" name="user_country">
+                <option selected hidden id="floatingSelect" aria-label="Floating label select example">Where are you from</option>
+                <option value="Uzbekiston">Uzbekiston</option>
+                <option value="Uzbekiston">Russia</option>
+                <option value="Uzbekiston">USA</option>
+                <option value="Uzbekiston">Argintina</option>
+                <option value="Uzbekiston">Canada</option>
+            </select>
+            <form class="position-relative js-form" action="https://echo.htmlacademy.ru/courses" method="post">
+                <input class="form-control user-name mb-4" type="text" name="user_name" placeholder="Enter your Firstname" aria-label="Enter your name">
+                <input class="form-control user-surname mb-4" type="text" name="user_surname" placeholder="Enter your Surname" aria-label="Enter your surname">
+                <input class="form-control user-tel mb-3" type="number" name="user_tel" placeholder="Enter your tel number" aria-label="Enter your tel number">
+            
+                <button type="submit" class="btn btn-success">Find</button>
+            </form>
+            <ul class="form-list-js list-unstyled mt-3 p-3 ps-0"></ul>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./mian.js"></script>
+</body>
+</html>
